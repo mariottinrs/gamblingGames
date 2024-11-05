@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #2c2f33;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .game-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .settings {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .input-field {
+    width: 80px;
+    padding: 8px;
+    background-color: #444;
+    border: 1px solid #666;
+    border-radius: 8px;
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  #start-button, #cashout-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(5, 60px);
+    gap: 10px;
+  }
+  
+  .cell {
+    width: 60px;
+    height: 60px;
+    background-color: #444;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 24px;
+    color: #fff;
+  }
+  
+  .cell img {
+    width: 80%; 
+    height: 80%;
+  }
+  
+  .status {
+    margin-top: 15px;
+    font-size: 18px;
+  }
+  
+  .go-to-crash-button {
+    background-color: #4CAF50; 
+    color: white;
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 25px; 
+    cursor: pointer; 
+    font-size: 16px; 
+    margin-bottom: 10px;
+    position: absolute; 
+    top: 20px; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    z-index: 100; 
+  }
+  
